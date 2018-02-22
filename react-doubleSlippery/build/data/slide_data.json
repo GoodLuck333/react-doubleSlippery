@@ -1,0 +1,70 @@
+[
+  {
+    "name": "刘刘",
+    "sex": "girl",
+    "age": "23",
+    "constellation": "狮子座",
+    "musicNum": "1",
+    "industry": "编辑、IT/互联网/通信",
+    "pics": [
+      "./images/userImg/slide001.png"
+    ]
+  },
+  {
+    "name": "周二珂",
+    "sex": "girl",
+    "age": "25",
+    "constellation": "天秤座",
+    "musicNum": "66",
+    "industry": "编辑",
+    "pics": [
+      "./images/userImg/zek1.jpeg",
+      "./images/userImg/zek2.jpeg"
+    ]
+  },
+  {
+    "name": "Mrs.TiMo",
+    "sex": "girl",
+    "age": "22",
+    "constellation": "狮子座",
+    "musicNum": "66",
+    "industry": "斗鱼·主播",
+    "pics": [
+      "./images/userImg/ftm1.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xjg38wj20j60pktc0.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xkyxc5j20j60srtfl.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xmc27bj20j60srjy9.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xqertdj20j60srn3r.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xsd2vej20j60jgjtu.jpg",
+      "./images/userImg/7887e2a7ly1ffo9y3qhn0j20j60srjyj.jpg"
+    ]
+  },
+  {
+    "name": "Fly",
+    "sex": "girl",
+    "age": "26",
+    "constellation": "处女座",
+    "musicNum": "1",
+    "industry": "编辑、IT/互联网/通信",
+    "pics": [
+      "./images/userImg/2017041011042077803.jpg"
+    ]
+  },
+  {
+    "name": "TiMo",
+    "sex": "girl",
+    "age": "26",
+    "constellation": "狮子座",
+    "musicNum": "99",
+    "industry": "斗鱼·主播",
+    "pics": [
+      "./images/userImg/ftm1.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xjg38wj20j60pktc0.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xkyxc5j20j60srtfl.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xmc27bj20j60srjy9.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xqertdj20j60srn3r.jpg",
+      "./images/userImg/7887e2a7ly1ffo9xsd2vej20j60jgjtu.jpg",
+      "./images/userImg/7887e2a7ly1ffo9y3qhn0j20j60srjyj.jpg"
+    ]
+  }
+]

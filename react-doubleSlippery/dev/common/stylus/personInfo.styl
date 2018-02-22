@@ -1,0 +1,64 @@
+.person-info
+  //display: none
+  width: 8.26rem
+  height 17.75rem
+  overflow: hidden
+  position: absolute
+  top:0
+  left:0
+  z-index: 5
+  &:before
+    content: ''
+    display: inline-block
+    position: absolute
+    z-index: 10
+    width: 8.26rem
+    height: 100%
+    background-color: rgba(0,0,0,.6)
+
+.person-info-bg
+  height: 100%
+  -webkit-filter: blur(10px)
+  -o-filter: blur(10px)
+  -moz-filter: blur(10px)
+  -ms-filter: blur(10px)
+  filter: blur(10px)
+
+.person-info-box
+  width: 8.26rem
+  height 17.75rem
+  position: absolute
+  top: 0
+  left: 0
+  z-index 10
+  .center
+    text-align: center
+    .person-info-head
+      display: inline-block
+      margin-top: 1.06rem
+      width: 2.26rem
+      height: 2.26rem
+      border-radius: 50%
+      border: 1px solid #cab8b4
+      background-repeat:no-repeat
+      background-size: 100% auto
+    h3
+      font-size: 0.56rem
+      color: #fffcf3
+      margin: 0.41rem 0 0.25rem
+    h4
+      font-size: 0.33rem
+      color: #bcb2b0
+  ul
+    margin: 2.29rem 0 0 1.33rem
+    li
+      line-height: 1.33rem
+    span
+      display: inline-block
+      color: #fff
+      font-size: 0.64rem
+      vertical-align: middle
+      margin: -0.21rem 0.93rem 0 0
+    label
+      color: #fff9fb
+      font-size: 0.42rem

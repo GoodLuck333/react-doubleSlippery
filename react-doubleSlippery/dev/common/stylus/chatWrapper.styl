@@ -1,0 +1,90 @@
+.chat-wrapper
+  //display: none
+  width: 8.26rem
+  height 17.75rem
+  overflow: hidden
+  position: absolute
+  top:0
+  right:0
+  z-index: 5
+  &:before
+    content: ''
+    display: inline-block
+    position: absolute
+    z-index: 5
+    width: 8.26rem
+    height: 100%
+    background-color: rgba(0,0,0,.6)
+
+  .chat-wrapper-bg
+    height: 100%
+    -webkit-filter: blur(10px)
+    -o-filter: blur(10px)
+    -moz-filter: blur(10px)
+    -ms-filter: blur(10px)
+    filter: blur(10px)
+
+  .chat-wrapper-box
+    width: 8.26rem
+    height 17.75rem
+    position: absolute
+    top: 0
+    left: 0
+    z-index 10
+    text-align: center
+    .match-num
+      width: 100%
+      height: 1.18rem
+      border-bottom: 1px solid rgba(112, 101, 97, .7)
+      font-size: 0.44rem
+      color: #eae8e9
+      line-height: 1.4rem
+    .friends-circle
+      display: inline-block
+      width: 7.8rem
+      height: 1.36rem
+      background: rgba(122, 117, 113, .75)
+      border-radius: 6px
+      margin: 0.28rem 0 0.28rem 0.1rem
+      img
+        display: inline-block
+        width: 0.75rem
+        height: 0.75rem
+        margin: 0.33rem
+        float: left
+      label
+        float: left
+        font-size: 0.4rem
+        color: #dad5cf
+        line-height: 1.4rem
+      .icon-right
+        float: right
+        margin-right: 0.14rem
+        font-size: 0.38rem
+        font-weight: bold
+        color: #dad5cf
+        line-height: 1.4rem
+    .circle-chat
+      display: inline-block
+      width: 7.8rem
+      height: 0.8rem
+      border-radius: 5px
+      margin: 0 0 0.44rem 0.1rem
+      label
+        display: inline-block
+        width: 3.85rem
+        height: 0.75rem
+        line-height: 0.75rem
+        font-size: 0.3rem
+        color: #ece8e5
+        border: 1px solid #7a7572
+        &:nth-child(1)
+          border-radius: 4px 0 0 4px
+        &:nth-child(2)
+          border-radius: 0 4px 4px 0
+        &.sel
+          background: #7a7572
+          color: #e9e4e1
+    .chats
+      height: 13.33rem
+      overflow-y: auto
