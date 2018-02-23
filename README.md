@@ -6,10 +6,10 @@ Imitation TanTan
 
 1、Clone the project locally
 
-2、Download dependencies
+2、Download dependencies\<br>
     npm install -i
     
-3、Run the project
+3、Run the project\<br>
     npm run dev
 
 >## Main interface
