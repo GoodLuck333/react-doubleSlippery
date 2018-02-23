@@ -2,6 +2,16 @@
 
 Imitation TanTan
 
+## How to run ?
+
+1、Clone the project locally
+
+2、Download dependencies
+    npm install -i
+    
+3、Run the project
+    npm run dev
+
 >## Main interface
 
 ![image](https://raw.githubusercontent.com/GoodLuck333/react-doubleSlippery/master/build/images/ll.png)
